@@ -1,0 +1,70 @@
+#! /usr/bin/python
+
+import subprocess
+import os
+
+APM_OPTIONS = ['apm', 'install', 'language-haskell', 'haskell-ghc-mod', 'ide-haskell', 'autocomplete-haskell','ide-haskell-repl','ide-haskell-cabal','--color', 'false']
+
+HOME_PATH = os.getenv('HOME')
+ATOM_CONFIG_PATH = '.atom/config.cson'
+CONFIG_PATH = os.path.join(HOME_PATH, ATOM_CONFIG_PATH)
+
+
+CSON_TEMPLATE = '''
+\"*"\
+  core:
+    telemetryConsent: \"no\"
+  \"exception-reporting\":
+    userId: \"{}\"
+  \"haskell-ghc-mod\":
+    additionalPathDirectories: [
+      \"/usr/bin\"
+    ]
+    ghcModPath: \"/usr/bin/ghc-mod\"
+    onSaveCheck: false
+  \"ide-haskell\":
+    stylishHaskellPath: \"usr/bin/stylish-haskell\"
+  \"ide-haskell-repl\":
+    ghciPath: \"/usr/bin/ghci\"
+  welcome:
+    showOnStartup: false
+'''
+
+def get_user_id():
+    with open(CONFIG_PATH, 'r') as f:
+        data = f.read().split('\n')
+        for line in data:
+            if 'userId' in line:
+                return line.split()[1][1:-2]
+
+def inject_cson_file(id):
+    with open(CONFIG_PATH, 'w') as f:
+        f.write(CSON_TEMPLATE.format(id))
+
+
+def install_packages():
+    output = subprocess.check_output(APM_OPTIONS,
+                            stderr=subprocess.STDOUT
+    )
+    for line in output.split('\n'):
+        split_line = line.split()
+        if split_line and split_line[-1] != '\xe2\x9c\x93':
+            raise RuntimeError('Installation of package {} failed {}'.format(split_line[1], split_line))
+
+def install_cabal_packages():
+  CABAL_INSTALL = ['cabal', 'install']
+  DEPENDENCIES = {
+    'quickcheck': ['quickcheck']
+  }
+
+  for dependency in DEPENDENCIES:
+    subprocess.check_output(CABAL_INSTALL + DEPENDENCIES[dependency])
+
+if __name__ == "__main__":
+    install_cabal_packages()
+    print('Installed cabal packages')
+    install_packages()
+    print('Installed packages')
+    id = get_user_id()
+    inject_cson_file(id)
+    print('Rewrote config file')
