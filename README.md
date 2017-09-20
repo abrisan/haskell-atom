@@ -2,6 +2,4 @@
 
 ## For DICE users, please go to [Howto Dice](https://github.com/livecodealex/haskell-atom/blob/master/howto_dice.md)
 
-## For Mac users, please go to [Howto Mac](https://github.com/livecodealex/haskell-atom/blob/master/howto_mac.md)
-
-## For Windows users, please go to "howto_win.md"
+## For Mac/Windows/Linux users, please go to [Howto Personal Machine](https://github.com/livecodealex/haskell-atom/blob/master/howto_mac.md)
