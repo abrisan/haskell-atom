@@ -1,20 +1,9 @@
-# How to get Atom working with ghci
+# This is a guide to installing Haskell with Atom
 
-## Download Atom
-[Download Atom](https://atom.io)
+# To download the script, please download this repository and run it
 
-## Download and install the full haskell platform
-Make sure you have no previous haskell platform installations
-If you do, use [Removal Steps](https://mail.haskell.org/pipermail/haskell-cafe/2011-March/090170.html) to remove them.
-[Haskell platform](https://www.haskell.org/platform/prior.html) and choose version
-version 8.0.2 for your platform
+# For DICE users, please go to "howo_dice.md"
 
+# For Mac users, please go to "howo_mac.md"
 
-
-## Disable root cmd in your cabal config file
-
-## Run the following to install ghc-mod (not on DICE)
-```
-cabal update
-sudo cabal install ghc-mod
-```
+# For Windows users, please go to "howto_win.md"
