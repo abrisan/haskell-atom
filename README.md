@@ -1,6 +1,6 @@
 # This is a guide to installing Haskell with Atom
 
-## [Download script](https://github.com/livecodealex/haskell-atom/archive/master.zip) for DICE (and unzip)
+## [Download and unzip DICE script](https://github.com/livecodealex/haskell-atom/archive/master.zip)
 
 ## For DICE users, please go to "howo_dice.md"
 
