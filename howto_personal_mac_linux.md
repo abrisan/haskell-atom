@@ -3,7 +3,7 @@
 ## Step 2 :
 [Download and unzip me](https://github.com/livecodealex/haskell-atom/archive/master.zip)
 ## Step 3 :
-`cd` into the directory named `[platform]_scripts`
+`cd` into the directory named `[platform]_scripts` <br />
 Uninstall any existing versions of Haskell, by running
 ```
 cd /path/to/extracted/folder/from/step/2
