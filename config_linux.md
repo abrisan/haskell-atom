@@ -1,8 +1,7 @@
 Open Atom, Go to Packages -> Settings View -> Manage Packages, and do the following:
 ### Go to the package haskell-ghc-mod
-and under <br />
-**Additional Paths** (0) set the path to `/usr/bin` <br />
-**Ghc Mod Path** set it to `/usr/bin/ghc-mod`
+Under **Additional Paths** (0) set the path to `/usr/bin` <br />
+Under **Ghc Mod Path** set the path to `/usr/bin/ghc-mod`
 
 ### Go to the package 'ide-haskell-repl' <br />
 Under **Ghci path** set the path to `/usr/bin/ghci` <br />
