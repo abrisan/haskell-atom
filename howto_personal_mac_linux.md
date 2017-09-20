@@ -3,8 +3,8 @@
 ## Step 2 :
 [Download and unzip me](https://github.com/livecodealex/haskell-atom/archive/master.zip)
 ## Step 3 :
-Uninstall any existing versions of Haskell.
-Run
+`cd` into the directory named `[platform]_scripts`
+Uninstall any existing versions of Haskell, by running
 ```
 cd /path/to/extracted/folder/from/step/2
 chmod +x removal_script_[platform].sh
@@ -18,7 +18,7 @@ Download the appropriate Haskell Platform, based on your Configuration:<br />
 [Linux x64](https://www.haskell.org/platform/download/8.0.2/haskell-platform-8.0.2-unknown-posix--full-x86_64.tar.gz) <br />
 [Linux x32](https://www.haskell.org/platform/download/8.0.2/haskell-platform-8.0.2-unknown-posix--full-i386.tar.gz) <br />Now install the downloaded package and proceed to step 4.
 ## Step 5 :
-Run the following commands after installing the haskell platform:
+Run the following commands after installing the haskell platform (in the same directory as step 3):
 ```
 chmod +x linux_mac_setup.sh
 ./linux_mac_setup.sh

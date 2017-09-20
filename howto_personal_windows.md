@@ -14,7 +14,7 @@ Download the appropriate Haskell Platform, based on your Configuration:<br />
 <br />
 Now install the downloaded package and proceed to step 4.
 ## Step 4 :
-Using Windows Explorer, go to the extracted directory within for Donwload (1)
+Using Windows Explorer, go to the extracted directory within for Donwload (1) and go to the directory named windows_scripts
 ## Step 5 :
 Within that folder, run the file named `windows_setup`. Once this has completed, go to step 6.
 ## Step 6 :
