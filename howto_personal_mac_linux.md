@@ -10,7 +10,7 @@ cd /path/to/extracted/folder/from/step/2
 chmod +x removal_script_[platform].sh
 ./removal_script_[platform].sh
 ```
-**Please note that this script will probably fail if you have no previous haskell installation**
+**Please note that this script will probably fail if you have no previous haskell installation**<br />
 *Replace [platform] with the os you are running it on (linux/mac)*
 ## Step 4 :
 Download the appropriate Haskell Platform, based on your Configuration:<br />
@@ -25,5 +25,5 @@ chmod +x linux_mac_setup.sh
 ```
 ## Step 6 :
 Follow the configuration steps relevant for your Operating System:<br />
-[Mac]()<br />
-[Linux]()
+[Mac](https://github.com/livecodealex/haskell-atom/blob/master/config_mac.md)<br />
+[Linux](https://github.com/livecodealex/haskell-atom/blob/master/config_linux.md)
