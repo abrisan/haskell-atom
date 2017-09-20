@@ -17,8 +17,10 @@ Now install the downloaded package and proceed to step 4.
 Using Windows Explorer, go to the extracted directory within for Donwload (1) and go to the directory named `windows_scripts`
 ## Step 5 :
 Within that folder, run the file named `windows_setup`. Once this has completed, go to step 6.
+*In order to run, please right-click and select Open With -> Git for Windows*
 ## Step 6 :
 Within the same folder, run the file named `windows_get_paths`, and copy its output to a notepad
+*In order to run, please right-click and select Open With -> Git for Windows*
 ## Step 7 :
 Open Atom, Go to Packages -> Settings View -> Manage Packages, and do the following:
 ### Go to the package haskell-ghc-mod
