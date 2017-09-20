@@ -4,7 +4,7 @@
 [Download script](https://github.com/livecodealex/haskell-atom/archive/master.zip) and unzip it
 
 ## Step 2:
-CD into the folder containing the script
+CD into the folder named `dice_scripts`
 
 ## Step 3:
 Run `chmod +x setup_ghc`
