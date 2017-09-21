@@ -9,23 +9,22 @@ HOME_PATH = os.getenv('HOME')
 ATOM_CONFIG_PATH = '.atom/config.cson'
 CONFIG_PATH = os.path.join(HOME_PATH, ATOM_CONFIG_PATH)
 
-
 CSON_TEMPLATE = '''
-\"*\":
+"*":
   core:
-    telemetryConsent: \"no\"
-  \"exception-reporting\":
-    userId: \"{}\"
-  \"haskell-ghc-mod\":
+    telemetryConsent: "no"
+  "exception-reporting":
+    userId: "{}"
+  "haskell-ghc-mod":
     additionalPathDirectories: [
-      \"/usr/bin\"
+      "/usr/bin"
     ]
-    ghcModPath: \"/usr/bin/ghc-mod\"
+    ghcModPath: "/usr/bin/ghc-mod"
     onSaveCheck: false
-  \"ide-haskell\":
-    stylishHaskellPath: \"usr/bin/stylish-haskell\"
-  \"ide-haskell-repl\":
-    ghciPath: \"/usr/bin/ghci\"
+  "ide-haskell":
+    stylishHaskellPath: "usr/bin/stylish-haskell"
+  "ide-haskell-repl":
+    ghciPath: "/usr/bin/ghci"
   welcome:
     showOnStartup: false
 '''
