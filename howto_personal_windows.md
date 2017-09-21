@@ -1,3 +1,5 @@
+## Step 0 :
+Make sure you are following this instruction on a Windows Account with Administrator privileges. **The scripts provided will not work otherwise.**
 ## Step 1 :
 [Download and install Atom](https://atom.io)
 Open the program once, and then close it immediately.
@@ -17,9 +19,9 @@ Now install the downloaded package.
 ***It is very important that you uncheck stack during the installation process.***
 <br />
 Once that is installed, <br />
-[download me (32-bit)](https://www.haskell.org/cabal/release/cabal-install-2.0.0.0/cabal-install-2.0.0.0-i386-unknown-mingw32.zip)
+[Download me (32-bit)](https://www.haskell.org/cabal/release/cabal-install-2.0.0.0/cabal-install-2.0.0.0-i386-unknown-mingw32.zip)
 <br />
-[download me (64-bit)](https://www.haskell.org/cabal/release/cabal-install-2.0.0.0/cabal-install-2.0.0.0-x86_64-unknown-mingw32.zip)<br />
+[Download me (64-bit)](https://www.haskell.org/cabal/release/cabal-install-2.0.0.0/cabal-install-2.0.0.0-x86_64-unknown-mingw32.zip)<br />
 and put the extracted `cabal.exe` in `C:\Program Files\Haskell\bin`.
 ## Step 4 :
 Using Windows Explorer, go to the extracted directory within for Donwload (1) and go to the directory named `windows_scripts`
@@ -30,6 +32,19 @@ Within that folder, run the file named `windows_setup`. Once this has completed,
 Within the same folder, run the file named `windows_get_paths`, and copy its output to a notepad
 *In order to run, please right-click and select Open With -> Git for Windows*
 ## Step 7 :
+Open Atom, Go to Packages -> Settings View -> Install Packages/Themes.<br />
+Using the Search Field labeled ***Search packages***, search and install the following Packages<br />
+
+```
+language-haskell
+haskell-ghc-mod
+ide-haskell-cabal
+ide-haskell
+autocomplete-haskell
+ide-haskell-repl
+```
+
+## Step 8 :
 Open Atom, Go to Packages -> Settings View -> Manage Packages, and do the following:
 ### Go to haskell-ghc-mod and click Settings
 Under **Ghc Mod Path** set it to the path in your notepad, next to **ghc-mod**
