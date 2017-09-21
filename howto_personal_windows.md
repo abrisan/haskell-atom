@@ -1,5 +1,5 @@
 ## Step 1 :
-[Download Atom](atom.io)
+[Download Atom](https://atom.io)
 ## Step 2 :
 [Download (1) and extract me](https://github.com/livecodealex/haskell-atom/archive/master.zip) <br />
 [Download and install git bash](https://github.com/git-for-windows/git/releases/download/v2.14.1.windows.1/Git-2.14.1-64-bit.exe)
@@ -12,7 +12,13 @@ Download the appropriate Haskell Platform, based on your Configuration:<br />
 [Windows x32](https://www.haskell.org/platform/download/8.0.2/HaskellPlatform-8.0.2-a-full-i386-setup.exe) <br />
 [Windows x64](https://www.haskell.org/platform/download/8.0.2/HaskellPlatform-8.0.2-a-full-x86_64-setup.exe) <br />
 <br />
-Now install the downloaded package and proceed to step 4.
+Now install the downloaded package.
+<br />
+Once that is installed, <br />
+[download me (32-bit)](https://www.haskell.org/cabal/release/cabal-install-2.0.0.0/cabal-install-2.0.0.0-i386-unknown-mingw32.zip)
+<br />
+[download me (64-bit)](https://www.haskell.org/cabal/release/cabal-install-2.0.0.0/cabal-install-2.0.0.0-x86_64-unknown-mingw32.zip)<br />
+and put the extracted `cabal.exe` in `C:\Program Files\Haskell\bin`.
 ## Step 4 :
 Using Windows Explorer, go to the extracted directory within for Donwload (1) and go to the directory named `windows_scripts`
 ## Step 5 :
