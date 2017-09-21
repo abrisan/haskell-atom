@@ -18,7 +18,7 @@ chmod +x removal_script_[platform].sh
 Download the appropriate Haskell Platform, based on your Configuration:<br />
 [Mac](https://www.haskell.org/platform/download/8.0.2/Haskell%20Platform%208.0.2%20Full%2064bit-signed.pkg) <br />
 [Linux x64](https://www.haskell.org/platform/download/8.0.2/haskell-platform-8.0.2-unknown-posix--full-x86_64.tar.gz) <br />
-[Linux x32](https://www.haskell.org/platform/download/8.0.2/haskell-platform-8.0.2-unknown-posix--full-i386.tar.gz) <br />Now install the downloaded package and proceed to step 4.
+[Linux x32](https://www.haskell.org/platform/download/8.0.2/haskell-platform-8.0.2-unknown-posix--full-i386.tar.gz) <br />Now install the downloaded package.
 ## Step 5 :
 Run the following commands after installing the haskell platform (in the same directory as step 3):
 ```
