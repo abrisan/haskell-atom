@@ -45,7 +45,7 @@ ide-haskell-repl
 ```
 
 ## Step 8 :
-Open Atom, Go to Packages -> Settings View -> Manage Packages, and do the following:
+Restart Atom, Go to Packages -> Settings View -> Manage Packages, and do the following:
 ### Go to haskell-ghc-mod and click Settings
 Under **Ghc Mod Path** set it to the path in your notepad, next to **ghc-mod**
 
