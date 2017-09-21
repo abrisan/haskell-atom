@@ -20,6 +20,7 @@ Download the appropriate Haskell Platform, based on your Configuration:<br />
 ## Step 5 :
 Run the following commands after installing the haskell platform (in the same directory as step 3):
 ```
+# note you must bin in the same directory as step 3. 
 chmod +x linux_mac_setup.sh
 ./linux_mac_setup.sh
 ```
