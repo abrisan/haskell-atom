@@ -24,7 +24,7 @@ Once that is installed, <br />
 [Download me (64-bit)](https://www.haskell.org/cabal/release/cabal-install-2.0.0.0/cabal-install-2.0.0.0-x86_64-unknown-mingw32.zip)<br />
 and put the extracted `cabal.exe` in `C:\Program Files\Haskell\bin`.
 ## Step 4 :
-Using Windows Explorer, go to the extracted directory within for Donwload (1) and go to the directory named `windows_scripts`
+Using Windows Explorer, go to the extracted directory for Donwload (1) and go to the directory named `windows_scripts`
 ## Step 5 :
 Within that folder, run the file named `windows_setup`. Once this has completed, go to step 6.
 *In order to run, please right-click and select Open With -> Git for Windows*
