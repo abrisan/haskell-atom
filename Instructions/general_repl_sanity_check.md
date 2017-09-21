@@ -9,7 +9,9 @@ Expand that folder and open the file named `sumSqOdd.hs`
 In your menu bar, go to Haskell IDE and click on Open REPL.
 ## Step 5 :
 Run the command <br /> `quickCheck prop_sumSqOdd` <br />
-***Please note that in order to execute commands typed in the REPL you will need to use***<br /> *`Shift-Enter on Windows/Linux`<br /> *`Command-Enter on Mac`<br />
+***Please note that in order to execute commands typed in the REPL you will need to use***<br /> 
+-`Shift-Enter on Windows/Linux`<br /> 
+-`Command-Enter on Mac`<br />
 making sure that auto-complete suggestions are available along the way
 ## Step 6 :
 You should see something along the lines of :<br /><br />
