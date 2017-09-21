@@ -12,4 +12,4 @@ Run the command <br /> `quickCheck prop_sumSqOdd` <br />
 making sure that auto-complete suggestions are avaialble along the way
 ## Step 6 :
 You should see something along the lines of :<br /><br />
-![Expected Result](haskell_test/result.png?raw=true)
+![Expected Result](../haskell_test/result.png?raw=true)
