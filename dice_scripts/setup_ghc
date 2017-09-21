@@ -22,7 +22,7 @@ CSON_TEMPLATE = '''
     ghcModPath: "/usr/bin/ghc-mod"
     onSaveCheck: false
   "ide-haskell":
-    stylishHaskellPath: "usr/bin/stylish-haskell"
+    stylishHaskellPath: "/usr/bin/stylish-haskell"
   "ide-haskell-repl":
     ghciPath: "/usr/bin/ghci"
   welcome:
