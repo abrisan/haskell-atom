@@ -1,5 +1,5 @@
 ## Step 1 :
-[Download and Atom](https://atom.io)
+[Download and Install Atom](https://atom.io)
 <br />
 Open the program once, and then close it immediately.
 ## Step 2 :
