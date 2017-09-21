@@ -55,3 +55,5 @@ Under **Ghci path** set the path to the path in your notepad, next to **ghci** <
 ### Go to 'ide-haskell' and click Settings<br />
 Under **Prettifier path** set the path to the path in your notepad, next to **stylish-haskell** <br />
 Under **Cabal path** set the path to the one in your notepad, next to **cabal** <br />
+## Step 9 :
+[Follow these instructions](https://github.com/livecodealex/haskell-atom/blob/master/Instructions/general_repl_sanity_check.md)
