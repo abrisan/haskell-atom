@@ -30,13 +30,12 @@ Within the same folder, run the file named `windows_get_paths`, and copy its out
 *In order to run, please right-click and select Open With -> Git for Windows*
 ## Step 7 :
 Open Atom, Go to Packages -> Settings View -> Manage Packages, and do the following:
-### Go to the package haskell-ghc-mod
-and under
-**Ghc Mod Path** set it to the path in your notepad, next to **ghc-mod**
+### Go to haskell-ghc-mod and click Settings
+Under **Ghc Mod Path** set it to the path in your notepad, next to **ghc-mod**
 
-### Go to the package 'ide-haskell-repl' <br />
+### Go to 'ide-haskell-repl' and click Settings<br />
 Under **Ghci path** set the path to the path in your notepad, next to **ghci** <br />
 
-### Go to the package 'ide-haskell' <br />
+### Go to 'ide-haskell' and click Settings<br />
 Under **Prettifier path** set the path to the path in your notepad, next to **stylish-haskell** <br />
 Under **Cabal path** set the path to the one in your notepad, next to **cabal** <br />
