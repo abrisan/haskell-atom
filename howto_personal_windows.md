@@ -14,6 +14,7 @@ Download the appropriate Haskell Platform, based on your Configuration:<br />
 [Windows x64](https://www.haskell.org/platform/download/8.0.2/HaskellPlatform-8.0.2-a-full-x86_64-setup.exe) <br />
 <br />
 Now install the downloaded package.
+***It is very important that you uncheck stack during the installation process.***
 <br />
 Once that is installed, <br />
 [download me (32-bit)](https://www.haskell.org/cabal/release/cabal-install-2.0.0.0/cabal-install-2.0.0.0-i386-unknown-mingw32.zip)
