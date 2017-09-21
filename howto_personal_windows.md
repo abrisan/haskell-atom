@@ -1,5 +1,6 @@
 ## Step 1 :
-[Download Atom](https://atom.io)
+[Download and install Atom](https://atom.io)
+Open the program once, and then close it immediately.
 ## Step 2 :
 [Download (1) and extract me](https://github.com/livecodealex/haskell-atom/archive/master.zip) <br />
 [Download and install git bash](https://github.com/git-for-windows/git/releases/download/v2.14.1.windows.1/Git-2.14.1-64-bit.exe)
