@@ -1,5 +1,7 @@
 ## Step 1 :
-[Download Atom](https://atom.io)
+[Download and Atom](https://atom.io)
+<br />
+Open the program once, and then close it immediately.
 ## Step 2 :
 [Download and unzip me](https://github.com/livecodealex/haskell-atom/archive/master.zip)
 ## Step 3 :
