@@ -1,8 +1,8 @@
 sudo rm -rf /Library/Frameworks/GHC.framework
 sudo rm -rf /Library/Frameworks/HaskellPlatform.framework
 sudo rm -rf /Library/Haskell
-rm -rf .cabal
-rm -rf .ghc
+rm -rf ~/.cabal
+rm -rf ~/.ghc
 rm -rf ~/Library/Haskell
 find /usr/bin /usr/local/bin -type l | \
   xargs -If sh -c '/bin/echo -n f /; readlink f' | \
