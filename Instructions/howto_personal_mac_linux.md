@@ -1,7 +1,7 @@
 ## Step 1 :
 [Download and Install Atom](https://atom.io)
 <br />
-Open the program once, and then close it immediately.
+**NEW** Open Atom once it is installed, go to the Atom menu in your menubar and click on "Install Shell Commands"
 ## Step 2 :
 [Download and unzip me](https://github.com/livecodealex/haskell-atom/archive/master.zip)
 ## Step 3 :
