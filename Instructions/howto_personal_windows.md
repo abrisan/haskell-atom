@@ -32,7 +32,8 @@ cabal update
 cabal install ghc-mod
 cabal install quickcheck
 cabal install stylish-haskell
-```<br />Once this has completed, go to step 6.
+```
+<br />Once this has completed, go to step 6.
 *In order to run, please right-click and select Open With -> Git for Windows*
 ## Step 6 :
 Within the same folder, run the file named `windows_get_paths`, and copy its output to a notepad
