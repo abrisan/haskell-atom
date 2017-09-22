@@ -26,7 +26,13 @@ and put the extracted `cabal.exe` in `C:\Program Files\Haskell\bin`.
 ## Step 4 :
 Using Windows Explorer, go to the extracted directory for Donwload (1) and go to the directory named `windows_scripts`
 ## Step 5 :
-Within that folder, run the file named `windows_setup`. Once this has completed, go to step 6.
+Open a git bash and run the following commands, one at a time:<br />
+```
+cabal update
+cabal install ghc-mod
+cabal install quickcheck
+cabal install stylish-haskell
+```<br />Once this has completed, go to step 6.
 *In order to run, please right-click and select Open With -> Git for Windows*
 ## Step 6 :
 Within the same folder, run the file named `windows_get_paths`, and copy its output to a notepad
