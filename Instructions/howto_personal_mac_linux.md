@@ -29,7 +29,7 @@ cabal install quickcheck
 ```
 ## Step 6 :
 After the previous set of commands has finished executing, run<br />
-`apm install language-haskell haskell-ghc-mod ide-haskell-cabal ide-haskell`
+`apm install language-haskell haskell-ghc-mod ide-haskell-cabal ide-haskell`<br />
 `apm install autocomplete-haskell ide-haskell-repl`
 ## Step 7 :
 Follow the configuration steps relevant for your Operating System:<br />
