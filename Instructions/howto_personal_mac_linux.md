@@ -20,13 +20,17 @@ Download the appropriate Haskell Platform, based on your Configuration:<br />
 [Linux x64](https://www.haskell.org/platform/download/8.0.2/haskell-platform-8.0.2-unknown-posix--full-x86_64.tar.gz) <br />
 [Linux x32](https://www.haskell.org/platform/download/8.0.2/haskell-platform-8.0.2-unknown-posix--full-i386.tar.gz) <br />Now install the downloaded package.
 ## Step 5 :
-Run the following commands after installing the haskell platform (in the same directory as step 3):
+Run the following commands, sequentially (in this order), after installing the haskell platform (in the same directory as step 3):<br />
 ```
-# note you must bin in the same directory as step 3.
-chmod +x linux_mac_setup.sh
-./linux_mac_setup.sh
+cabal update
+cabal install ghc-mod
+cabal install stylish-haskell
+cabal install quickcheck
 ```
 ## Step 6 :
+After the previous set of commands has finished executing, run<br />
+`apm install language-haskell haskell-ghc-mod ide-haskell-cabal ide-haskell autocomplete-haskell ide-haskell-repl`
+## Step 7 :
 Follow the configuration steps relevant for your Operating System:<br />
 [Mac](https://github.com/livecodealex/haskell-atom/blob/master/Instructions/config_mac.md)<br />
 [Linux](https://github.com/livecodealex/haskell-atom/blob/master/Instructions/config_linux.md)
