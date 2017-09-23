@@ -20,7 +20,7 @@ Download the appropriate Haskell Platform, based on your Configuration:<br />
 [Linux x64](https://www.haskell.org/platform/download/8.0.2/haskell-platform-8.0.2-unknown-posix--full-x86_64.tar.gz) <br />
 [Linux x32](https://www.haskell.org/platform/download/8.0.2/haskell-platform-8.0.2-unknown-posix--full-i386.tar.gz) <br />Now install the downloaded package.
 ## Step 5 :
-Run the following commands, sequentially (in this order), after installing the haskell platform (in the same directory as step 3):<br />
+Run the following commands, sequentially (in this order), after installing the haskell platform:<br />
 ```
 cabal update
 cabal install ghc-mod
