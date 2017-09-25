@@ -59,7 +59,12 @@ def install_cabal_packages():
   for dependency in DEPENDENCIES:
     subprocess.check_output(CABAL_INSTALL + DEPENDENCIES[dependency])
 
+def update_cabal():
+  subprocess.check_output(['cabal', 'update'])
+
 if __name__ == "__main__":
+    update_cabal()
+    print('Updated cabal')
     install_cabal_packages()
     print('Installed cabal packages')
     install_packages()
