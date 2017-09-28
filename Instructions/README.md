@@ -6,4 +6,3 @@
 
 ## For a guide to installing it on Windows, please go to [Howto Personal Machine (Windows)](https://github.com/livecodealex/haskell-atom/blob/master/Instructions/howto_personal_windows.md)
 
-**If you encounter any issues, please let one of the demonstrators know and we will help you**
