@@ -10,7 +10,7 @@ Open the program once, and then close it immediately.
 Uninstall any existing versions of Haskell.
 <br />
 Control Panel -> Uninstall Programs -> Haskell Platform
-## Step 3 :
+## Step 4 :
 Download the appropriate Haskell Platform, based on your Configuration:<br />
 [Windows x32](https://www.haskell.org/platform/download/8.0.2/HaskellPlatform-8.0.2-a-full-i386-setup.exe) <br />
 [Windows x64](https://www.haskell.org/platform/download/8.0.2/HaskellPlatform-8.0.2-a-full-x86_64-setup.exe) <br />
@@ -23,9 +23,9 @@ Once that is installed, <br />
 <br />
 [Download me (64-bit)](https://www.haskell.org/cabal/release/cabal-install-2.0.0.0/cabal-install-2.0.0.0-x86_64-unknown-mingw32.zip)<br />
 and put the extracted `cabal.exe` in `C:\Program Files\Haskell\bin`.
-## Step 4 :
-Using Windows Explorer, go to the extracted directory for Donwload (1) and go to the directory named `windows_scripts`
 ## Step 5 :
+Using Windows Explorer, go to the extracted directory for Donwload (1) and go to the directory named `windows_scripts`
+## Step 6 :
 Open a git bash and run the following commands, one at a time:<br />
 ```
 cabal update
@@ -35,10 +35,10 @@ cabal install stylish-haskell
 ```
 <br />Once this has completed, go to step 6.
 *In order to run, please right-click and select Open With -> Git for Windows*
-## Step 6 :
+## Step 7 :
 Within the same folder, run the file named `windows_get_paths`, and copy its output to a notepad
 *In order to run, please right-click and select Open With -> Git for Windows*
-## Step 7 :
+## Step 8 :
 Open Atom, Go to Packages -> Settings View -> Install Packages/Themes.<br />
 Using the Search Field labeled ***Search packages***, search and install the following Packages<br />
 
@@ -51,7 +51,7 @@ autocomplete-haskell
 ide-haskell-repl
 ```
 
-## Step 8 :
+## Step 9 :
 Restart Atom, Go to Packages -> Settings View -> Manage Packages, and do the following:
 ### Go to haskell-ghc-mod and click Settings
 Under **Ghc Mod Path** set it to the path in your notepad, next to **ghc-mod**
@@ -62,5 +62,5 @@ Under **Ghci path** set the path to the path in your notepad, next to **ghci** <
 ### Go to 'ide-haskell' and click Settings<br />
 Under **Prettifier path** set the path to the path in your notepad, next to **stylish-haskell** <br />
 Under **Cabal path** set the path to the one in your notepad, next to **cabal** <br />
-## Step 9 :
+## Step 10 :
 [Follow these instructions](https://github.com/livecodealex/haskell-atom/blob/master/Instructions/general_repl_sanity_check.md)
