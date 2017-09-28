@@ -42,8 +42,8 @@ ide-haskell-repl
 ## Step 7 :
 Restart Atom, Go to Packages -> Settings View -> Manage Packages, and do the following:
 ### Go to haskell-ghc-mod and click Settings
-Under **Additional Directories Paths** set it to `C:\Program Files\Haskell Platform\8.0.2-a\bin\ghc`
-Under **Ghc Mod Path** set it to the path in your notepad, next to `C:\Users\<user_name>\AppData\Roaming\cabal\bin\ghc-mod.exe`
+Under **Additional Directories Paths** set it to `C:\Program Files\Haskell Platform\8.0.2-a\bin\ghc`<br />
+Under **Ghc Mod Path** set it to `C:\Users\<user_name>\AppData\Roaming\cabal\bin\ghc-mod.exe`
 
 ## Step 8 :
 [Follow these instructions](https://github.com/livecodealex/haskell-atom/blob/master/Instructions/general_repl_sanity_check.md)
