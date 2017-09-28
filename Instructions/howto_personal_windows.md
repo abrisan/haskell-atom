@@ -26,12 +26,7 @@ cabal install ghc-mod
 cabal install quickcheck
 cabal install stylish-haskell
 ```
-<br />Once this has completed, go to step 6.
-*In order to run, please right-click and select Open With -> Git for Windows*
 ## Step 6 :
-Within the same folder, run the file named `windows_get_paths`, and copy its output to a notepad
-*In order to run, please right-click and select Open With -> Git for Windows*
-## Step 7 :
 Open Atom, Go to Packages -> Settings View -> Install Packages/Themes.<br />
 Using the Search Field labeled ***Search packages***, search and install the following Packages<br />
 
@@ -47,13 +42,8 @@ ide-haskell-repl
 ## Step 8 :
 Restart Atom, Go to Packages -> Settings View -> Manage Packages, and do the following:
 ### Go to haskell-ghc-mod and click Settings
-Under **Ghc Mod Path** set it to the path in your notepad, next to **ghc-mod**
+Under **Additional Directories Paths** set it to `C:\Program Files\Haskell Platform\8.0.2-a\bin\ghc`
+Under **Ghc Mod Path** set it to the path in your notepad, next to `C:\Users\<user_name>\AppData\Roaming\cabal\bin\ghc-mod.exe`
 
-### Go to 'ide-haskell-repl' and click Settings<br />
-Under **Ghci path** set the path to the path in your notepad, next to **ghci** <br />
-
-### Go to 'ide-haskell' and click Settings<br />
-Under **Prettifier path** set the path to the path in your notepad, next to **stylish-haskell** <br />
-Under **Cabal path** set the path to the one in your notepad, next to **cabal** <br />
 ## Step 9 :
 [Follow these instructions](https://github.com/livecodealex/haskell-atom/blob/master/Instructions/general_repl_sanity_check.md)
