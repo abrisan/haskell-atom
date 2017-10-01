@@ -27,7 +27,7 @@ cabal install quickcheck
 cabal install stylish-haskell
 ``` 
 <br />
-The last few lines of the Git Bash output will indicate to you if the installation has succeeded or not. Please check those lines, and if any packages have failed to install, please try installing them by running <br /><br /> cabal install package_name  <br /><br />
+The command "cabal install ghc-mod" will install a lot of packages, taking several minutes. The last few lines of the Git Bash output will indicate to you if the installation has succeeded or not. Please check those lines, and if any packages have failed to install, please try installing them by running <br /><br /> cabal install package_name  <br /><br />
 and then running <br /><br />
 cabal install ghc-mod <br /><br />
 again.
