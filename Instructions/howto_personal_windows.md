@@ -25,7 +25,8 @@ cabal update
 cabal install ghc-mod
 cabal install quickcheck
 cabal install stylish-haskell
-```
+``` <br />
+The last few lines of the Git Bash output will indicate to you if the installation has succeeded or not. Please check those lines, and if any packages have failed to install, please try installing them by running <br />`cabal install <package_name>`<br /> and then running `cabal install ghc-mod` again.
 ## Step 6 :
 Open Atom, Go to Packages -> Settings View -> Install Packages/Themes.<br />
 Using the Search Field labeled ***Search packages***, search and install the following Packages<br />
