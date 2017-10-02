@@ -1,8 +1,8 @@
 ## Step 1 :
 Open Atom
 ## Step 2 :
-Go to File -> Open/Open Folder and open the folder that was used for the provided scripts
-## Step 4 :
+Go to File -> Open/Open Folder and open the folder that was used for the provided scripts (the folder that you downloaded and extracted using in the installation instructions)
+## Step 3 :
 In the bar on the left side of your atom, you should see a folder named haskell_test. <br />
 Expand that folder and open the file named `sumSqOdd.hs`
 ## Step 4 :
